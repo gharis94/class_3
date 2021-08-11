@@ -39,4 +39,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build gharis-reactnewyarn.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build class_3-page.surge.sh --token ${{ secrets.SURGE_TOKEN }}
